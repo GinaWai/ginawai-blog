@@ -1,0 +1,57 @@
+baseURL = "https://ginawai.com/"
+languageCode = "zh-CN"
+title = "GinaWai"
+theme = "cactus-plus"
+hasCJKLanguage = true
+paginate = 10
+enableRobotsTXT = true
+enableEmoji = true
+
+[author]
+  name = "Gina"
+  email = ""
+
+[params]
+  description = "Gina 的个人博客"
+  keywords = ["blog", "gina", "life", "tech"]
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5
+  tagsOverview = true
+  showProjectsList = false
+  colorschemeswitcher = false
+
+  [params.logo]
+    img = "images/logo.png"
+    text = "GinaWai"
+
+  [params.social]
+    github  = ""
+    twitter = ""
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name   = "首页"
+    url    = "/"
+    weight = 1
+  [[menu.main]]
+    name   = "文章"
+    url    = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name   = "关于"
+    url    = "/about/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = "monokai"
