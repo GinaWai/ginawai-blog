@@ -20,10 +20,6 @@ enableEmoji = true
   showProjectsList = false
   colorschemeswitcher = false
 
-  [params.logo]
-    img = "images/logo.png"
-    text = "GinaWai"
-
   [params.social]
     github  = ""
     twitter = ""
