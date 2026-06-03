@@ -1,7 +1,7 @@
 baseURL = "https://ginawai.com/"
-languageCode = "zh-CN"
+locale = "zh-CN"
 title = "GinaWai"
-theme = "cactus-plus"
+theme = "hugo-theme-cactus-plus"
 hasCJKLanguage = true
 paginate = 10
 enableRobotsTXT = true
@@ -20,9 +20,9 @@ enableEmoji = true
   showProjectsList = false
   colorschemeswitcher = false
 
-  [params.social]
-    github  = ""
-    twitter = ""
+  [[params.social]]
+    name  = "github"
+    link  = "https://github.com/Ginawai"
 
 [taxonomies]
   tag = "tags"
