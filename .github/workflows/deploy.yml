@@ -35,8 +35,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          # ⚠️ 替换为你的 GitHub 用户名（格式：用户名/用户名.github.io）
-          EXTERNAL_REPOSITORY: YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io
+          EXTERNAL_REPOSITORY: GinaWai/GinaWai.github.io
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
           commit_message: ${{ github.event.head_commit.message }}
